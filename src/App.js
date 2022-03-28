@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+/** @format */
 
+import Layout from "./components/LayoutEx/LayoutEx";
+import Home from "./components/LayoutEx/Home";
+import HomePractice from "./components/LayoutPractice/HomePractice";
+import DataBinding from "./DataBinding/DataBinding";
+import HandleEvent from "./components/HandleEvent/HandleEvent";
+import RenderingCondition from "./RenderingConditions/RenderingCondition";
+import StateDemo from "./State/StateDemo";
+import Styling from "./Styling/Styling";
+import ChooseCar from "./Practice/ChooseCar/ChooseCar";
+import RenderWithLoop from "./RenderWithLoop/RenderWithLoop";
+import RenderPractice from "./RenderPractice/RenderPractice";
+import ChooseGlasses from "./Practice/ChooseGlasses/ChooseGlasses";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <HomePractice /> */}
+      {/* <RenderingCondition /> */}
+      {/* <StateDemo /> */}
+      {/* <Styling /> */}
+      {/* <ChooseCar /> */}
+      {/* <RenderWithLoop /> */}
+      {/* <RenderPractice /> */}
+      {/* <ChooseGlasses /> */}
+      <ChooseCar />
     </div>
   );
 }
